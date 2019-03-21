@@ -1,0 +1,7 @@
+.font-oswald {
+    font-family: "Oswald" !important;
+}
+
+.font-oswald .nav-link {
+	font-weight: 100;
+}
