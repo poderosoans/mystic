@@ -3288,7 +3288,7 @@ tbody.collapse.show {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.6rem 1.2rem; }
+  padding: 0.0rem 1.2rem; }
   .navbar > .container,
   .navbar > .container-fluid {
     display: -webkit-box;
@@ -8736,8 +8736,8 @@ a.text-black:hover, a.text-black:focus {
 .navbar .navbar-nav .nav-item .nav-link:not(.btn):focus,
 .navbar .navbar-nav .nav-item .nav-link:not(.btn):hover,
 .navbar .navbar-nav .nav-item .nav-link:not(.btn):active {
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 0.2rem; }
+  background-color: #aaaaaa;
+ }
 
 @media screen and (min-width: 992px) {
   .navbar .navbar-nav .nav-item:not(:last-child) {
@@ -8747,7 +8747,7 @@ a.text-black:hover, a.text-black:focus {
     right: 10px; } }
 
 .navbar .navbar-nav .nav-link {
-  padding: 0.5rem 1rem; }
+  padding: 0.7rem 1rem; }
 
 .navbar .navbar-nav .nav-link.btn.btn-lg, .navbar .navbar-nav .btn-group-lg > .nav-link.btn {
   padding: 0.8rem 2rem; }
