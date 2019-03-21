@@ -1,0 +1,177 @@
+.tooltip{
+
+	.tooltip-inner{
+		box-shadow: $popover-box-shadow;
+	}
+	
+
+	&.bs-tooltip-bottom, .bs-tooltip-auto[x-placement^="bottom"]{
+		.arrow-primary::before{
+			border-bottom-color: $primary;
+		}
+	}
+	&.bs-tooltip-top, .bs-tooltip-auto[x-placement^="top"]{
+		.arrow-primary::before{
+			border-top-color: $primary;
+		}
+	}
+	&.bs-tooltip-left, .bs-tooltip-auto[x-placement^="left"]{
+		.arrow-primary::before{
+			border-left-color: $primary;
+		}
+	}
+	&.bs-tooltip-right, .bs-tooltip-auto[x-placement^="right"]{
+		.arrow-primary::before{
+			border-right-color: $primary;
+		}
+	}
+
+	&.bs-tooltip-bottom, .bs-tooltip-auto[x-placement^="bottom"]{
+		.arrow-secondary::before{
+			border-bottom-color: $secondary;
+		}
+	}
+	&.bs-tooltip-top, .bs-tooltip-auto[x-placement^="top"]{
+		.arrow-secondary::before{
+			border-top-color: $secondary;
+		}
+	}
+	&.bs-tooltip-left, .bs-tooltip-auto[x-placement^="left"]{
+		.arrow-secondary::before{
+			border-left-color: $secondary;
+		}
+	}
+	&.bs-tooltip-right, .bs-tooltip-auto[x-placement^="right"]{
+		.arrow-secondary::before{
+			border-right-color: $secondary;
+		}
+	}
+
+	&.bs-tooltip-bottom, .bs-tooltip-auto[x-placement^="bottom"]{
+		.arrow-success::before{
+			border-bottom-color: $success;
+		}
+	}
+	&.bs-tooltip-top, .bs-tooltip-auto[x-placement^="top"]{
+		.arrow-success::before{
+			border-top-color: $success;
+		}
+	}
+	&.bs-tooltip-left, .bs-tooltip-auto[x-placement^="left"]{
+		.arrow-success::before{
+			border-left-color: $success;
+		}
+	}
+	&.bs-tooltip-right, .bs-tooltip-auto[x-placement^="right"]{
+		.arrow-success::before{
+			border-right-color: $success;
+		}
+	}
+
+	&.bs-tooltip-bottom, .bs-tooltip-auto[x-placement^="bottom"]{
+		.arrow-info::before{
+			border-bottom-color: $info;
+		}
+	}
+	&.bs-tooltip-top, .bs-tooltip-auto[x-placement^="top"]{
+		.arrow-info::before{
+			border-top-color: $info;
+		}
+	}
+	&.bs-tooltip-left, .bs-tooltip-auto[x-placement^="left"]{
+		.arrow-info::before{
+			border-left-color: $info;
+		}
+	}
+	&.bs-tooltip-right, .bs-tooltip-auto[x-placement^="right"]{
+		.arrow-info::before{
+			border-right-color: $info;
+		}
+	}
+
+	&.bs-tooltip-bottom, .bs-tooltip-auto[x-placement^="bottom"]{
+		.arrow-danger::before{
+			border-bottom-color: $danger;
+		}
+	}
+	&.bs-tooltip-top, .bs-tooltip-auto[x-placement^="top"]{
+		.arrow-danger::before{
+			border-top-color: $danger;
+		}
+	}
+	&.bs-tooltip-left, .bs-tooltip-auto[x-placement^="left"]{
+		.arrow-danger::before{
+			border-left-color: $danger;
+		}
+	}
+	&.bs-tooltip-right, .bs-tooltip-auto[x-placement^="right"]{
+		.arrow-danger::before{
+			border-right-color: $danger;
+		}
+	}
+
+	&.bs-tooltip-bottom, .bs-tooltip-auto[x-placement^="bottom"]{
+		.arrow-warning::before{
+			border-bottom-color: $warning;
+		}
+	}
+	&.bs-tooltip-top, .bs-tooltip-auto[x-placement^="top"]{
+		.arrow-warning::before{
+			border-top-color: $warning;
+		}
+	}
+	&.bs-tooltip-left, .bs-tooltip-auto[x-placement^="left"]{
+		.arrow-warning::before{
+			border-left-color: $warning;
+		}
+	}
+	&.bs-tooltip-right, .bs-tooltip-auto[x-placement^="right"]{
+		.arrow-warning::before{
+			border-right-color: $warning;
+		}
+	}
+
+	&.bs-tooltip-bottom, .bs-tooltip-auto[x-placement^="bottom"]{
+		.arrow-dark::before{
+			border-bottom-color: $dark;
+		}
+	}
+	&.bs-tooltip-top, .bs-tooltip-auto[x-placement^="top"]{
+		.arrow-dark::before{
+			border-top-color: $dark;
+		}
+	}
+	&.bs-tooltip-left, .bs-tooltip-auto[x-placement^="left"]{
+		.arrow-dark::before{
+			border-left-color: $dark;
+		}
+	}
+	&.bs-tooltip-right, .bs-tooltip-auto[x-placement^="right"]{
+		.arrow-dark::before{
+			border-right-color: $dark;
+		}
+	}
+
+	&.bs-tooltip-bottom, .bs-tooltip-auto[x-placement^="bottom"]{
+		.arrow-light::before{
+			border-bottom-color: $light;
+		}
+	}
+	&.bs-tooltip-top, .bs-tooltip-auto[x-placement^="top"]{
+		.arrow-light::before{
+			border-top-color: $light;
+		}
+	}
+	&.bs-tooltip-left, .bs-tooltip-auto[x-placement^="left"]{
+		.arrow-light::before{
+			border-left-color: $light;
+		}
+	}
+	&.bs-tooltip-right, .bs-tooltip-auto[x-placement^="right"]{
+		.arrow-light::before{
+			border-right-color: $light;
+		}
+	}
+
+}
+

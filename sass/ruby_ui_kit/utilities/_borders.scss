@@ -1,0 +1,102 @@
+.item-round-1{
+	border-radius: .5rem;
+}
+
+.item-round-2{
+	border-radius: 1rem;
+}
+
+.item-round-3{
+	border-radius: 1.5rem;
+}
+
+.item-round-4{
+	border-radius: 2rem;
+}
+
+
+@each $color, $value in $theme-colors {
+
+  .b-#{$color}, .b-#{$color}-1 {
+    border: .1rem solid $value;
+  }
+  .b-#{$color}, .b-#{$color}-2 {
+    border: .2rem solid $value;
+  }
+  .b-#{$color}, .b-#{$color}-3 {
+    border: .3rem solid $value;
+  }
+  .b-#{$color}, .b-#{$color}-4 {
+    border: .4rem solid $value;
+  }
+
+	//border top
+  .bt-#{$color}, .bt-#{$color}-1 {
+  	border-top: .1rem solid $value;
+  }
+
+  .bt-#{$color}-2 {
+  	border-top: .2rem solid $value;
+  }
+
+  .bt-#{$color}-3 {
+  	border-top: .3rem solid $value;
+  }
+
+  .bt-#{$color}-4 {
+  	border-top: .4rem solid $value;
+  }
+
+	//border bottom
+  .bb-#{$color}, .bb-#{$color}-1 {
+  	border-bottom: .1rem solid $value;
+  }
+
+  .bb-#{$color}-2 {
+  	border-bottom: .2rem solid $value;
+  }
+
+  .bb-#{$color}-3 {
+  	border-bottom: .3rem solid $value;
+  }
+
+  .bb-#{$color}-4 {
+  	border-bottom: .4rem solid $value;
+  }
+
+  //border left
+  .bl-#{$color}, .bl-#{$color}-1 {
+  	border-left: .1rem solid $value;
+  }
+
+  .bl-#{$color}-2 {
+  	border-left: .2rem solid $value;
+  }
+
+  .bl-#{$color}-3 {
+  	border-left: .3rem solid $value;
+  }
+
+  .bl-#{$color}-4 {
+  	border-left: .4rem solid $value;
+  }
+
+  //border right
+  .br-#{$color}, .br-#{$color}-1 {
+  	border-right: .1rem solid $value;
+  }
+
+  .br-#{$color}-2 {
+  	border-right: .2rem solid $value;
+  }
+
+  .br-#{$color}-3 {
+  	border-right: .3rem solid $value;
+  }
+
+  .br-#{$color}-4 {
+  	border-right: .4rem solid $value;
+  }
+
+}
+

@@ -1,0 +1,36 @@
+@each $color, $value in $theme-colors {
+  .links-#{$color} {
+  	a{
+  		color: $value;
+
+  		@include hover {
+  		  color: darken($value, 15%);
+  		}
+  	}
+
+  	
+  }
+
+}
+
+.links-white {
+	a{
+		color: $white;
+		@include hover {
+		  color: darken($white, 15%);
+		}
+	}
+}
+
+// bold
+.links-bold{
+	a{
+		font-weight: bold;
+	}
+}
+
+.links-unstyled{
+	a{
+		text-decoration: none !important;
+	}
+}

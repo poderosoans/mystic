@@ -1,0 +1,40 @@
+.bg-transparent{
+	background-color: transparent !important;
+	box-shadow: none;
+}
+
+.bg-gray-light{
+	background: $gray-200;
+}
+
+
+.body-bg, .bg-body{
+	background-color: $body-bg !important;
+}
+
+.bg-overlay-1{
+	background-color: $bg-overlay-1;
+}
+.bg-overlay-2{
+	background: $bg-overlay-2;
+}
+.bg-overlay-3{
+	background: $bg-overlay-3;
+}
+.bg-overlay-4{
+	background: $bg-overlay-4;
+}
+
+
+.hover-bg-overlay-1:hover{
+	background-color: $bg-overlay-1;
+}
+.hover-bg-overlay-2:hover{
+	background: $bg-overlay-2;
+}
+.hover-bg-overlay-3:hover{
+	background: $bg-overlay-3;
+}
+.hover-bg-overlay-4:hover{
+	background: $bg-overlay-4;
+}

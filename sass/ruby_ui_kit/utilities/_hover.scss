@@ -1,0 +1,13 @@
+.text-transparent{
+	color: transparent;
+}
+
+@each $color, $value in $theme-colors {
+  .hover-text-#{$color}:hover *, .hover-text-#{$color}:hover{
+    color: $value !important;
+  }
+  
+  .hover-text-transparent:hover *, .hover-text-transparent:hover{
+    color: transparent !important;
+  }
+}

@@ -1,0 +1,15 @@
+.form-control {
+  &:focus{
+    box-shadow: none;
+  }
+}
+
+.was-validated .form-control:valid:focus, .form-control.is-valid:focus, .was-validated 
+.custom-select:valid:focus, .custom-select.is-valid:focus, 
+.form-control.is-invalid:focus, .custom-select:invalid:focus, .custom-select.is-invalid:focus,
+.custom-control-input:focus ~ .custom-control-indicator{
+  &:focus{
+    box-shadow: none;
+  }
+}
+

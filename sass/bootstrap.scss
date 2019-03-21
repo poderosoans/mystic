@@ -1,0 +1,70 @@
+//@import "bootstrap/bootstrap";
+
+//Your vars
+	@import "your_styles/your_vars";
+	
+//ruby ui kit
+	@import "ruk_variables";
+
+//bootstrap
+	@import "bootstrap/functions";
+	@import "bootstrap/variables";
+	@import "bootstrap/mixins";
+	@import "bootstrap/root";
+	@import "bootstrap/print";
+	@import "bootstrap/reboot";
+	@import "bootstrap/type";
+	@import "bootstrap/images";
+	@import "bootstrap/code";
+	@import "bootstrap/grid";
+	@import "bootstrap/tables";
+	@import "bootstrap/forms";
+	@import "bootstrap/buttons";
+	@import "bootstrap/transitions";
+	@import "bootstrap/dropdown";
+	@import "bootstrap/button-group";
+	@import "bootstrap/input-group";
+	@import "bootstrap/custom-forms";
+	@import "bootstrap/nav";
+	@import "bootstrap/navbar";
+	@import "bootstrap/card";
+	@import "bootstrap/breadcrumb";
+	@import "bootstrap/pagination";
+	@import "bootstrap/badge";
+	@import "bootstrap/jumbotron";
+	//@import "bootstrap/alert"; //No include
+	@import "bootstrap/progress";
+	@import "bootstrap/media";
+	@import "bootstrap/list-group";
+	@import "bootstrap/close";
+	@import "bootstrap/modal";
+	@import "bootstrap/tooltip";
+	@import "bootstrap/popover";
+	@import "bootstrap/carousel";
+	@import "bootstrap/utilities";
+
+//ruby ui kit
+	@import "ruby_ui_kit/_buttons";
+	@import "ruby_ui_kit/_navbar";
+	@import "ruby_ui_kit/dropdown";
+	@import "ruby_ui_kit/inputs";
+	@import "ruby_ui_kit/forms";
+	@import "ruby_ui_kit/popover";
+	@import "ruby_ui_kit/tooltip";	
+	@import "ruby_ui_kit/navs";
+
+	@import "ruby_ui_kit/alert";
+	@import "ruby_ui_kit/card";
+	@import "ruby_ui_kit/pagination";
+	@import "ruby_ui_kit/ruk_sidebar";
+
+	//utilities
+	@import "ruby_ui_kit/utilities/background";
+	@import "ruby_ui_kit/utilities/borders";
+	@import "ruby_ui_kit/utilities/hover";
+	@import "ruby_ui_kit/utilities/shadows";
+	@import "ruby_ui_kit/utilities/links";
+	@import "ruby_ui_kit/utilities/list";
+
+//Your vars
+	@import "your_styles/styles";

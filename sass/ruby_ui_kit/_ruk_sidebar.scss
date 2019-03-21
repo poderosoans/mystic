@@ -1,0 +1,49 @@
+.ruk-sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100; /* Behind the navbar */
+  padding: 0;
+  background: linear-gradient(to bottom, rgba(205,30,26,1) 0%, rgba(229,57,53,1) 100%);
+
+}
+
+.ruk-sidebar-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 52px; /* Height of navbar */
+  height: calc(100vh - 52px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+.ruk-sidebar-sticky ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+.ruk-sidebar .nav-link.active {
+  color: #fff;
+  background: $primary;
+  padding-top: .6rem;
+  padding-bottom: .6rem;
+}
+
+
+.ruk-sidebar .collapse.show .nav-link {
+  border-bottom: 1px solid $gray-200;
+}
+
+.ruk-sidebar .collapse .nav-link {
+  border: none;
+}
+
+.ruk-sidebar .collapse .nav-link:hover{
+  color: #999;
+}
+
+.ruk-sidebar .nav-link {
+  color: $gray-900;
+}

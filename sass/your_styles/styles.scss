@@ -1,0 +1,358 @@
+//globales
+.bg-gray-dark{
+  background: $gray-dark;
+}
+
+.bg-gray-2{
+  background: $gray-200;
+}
+
+.text-gray-2{
+  color: #adb5bd;
+}
+
+.h7{
+  font-size: 1rem;
+}
+
+.h8{
+  font-size: .9rem;
+}
+
+.h9{
+  font-size: .8rem;
+}
+
+
+.placeholders-primary{
+  select{
+    color: $primary;
+  }
+  ::placeholder {
+    color: $primary !important;
+  }
+}
+
+.font-soleil{
+  font-family: "SoleilW01-Regular" !important;
+}
+
+
+@media (min-width: 768px) {
+
+  .h-md-350px{
+    height: 350px !important;
+  }
+
+  .w-md-20{
+    width: 20%;
+    max-width: 20%;
+  }
+}
+
+
+//header
+.navbar .navbar-nav .nav-link {
+  font-size: .9rem;
+}
+
+.flats{
+  img{
+    width: 18px;
+  }
+}
+
+//slider
+.slider-overlay{
+  position: absolute; 
+  height: 100%; 
+  top: 0; 
+  width: 100%; 
+  z-index: 1;
+}
+
+#homeMainCarousel{
+  @media (min-width: 768px) {
+    .img-slider{
+      height: 768px;
+    }
+  }
+}
+
+.slider-movil-show{
+
+  @media (max-width: 600px) {
+    .display-2 {
+      font-size: 2rem;
+    }
+    .btn-lg{
+      padding: 0 .5rem;
+    }
+  }
+  
+}
+
+.slider-card{
+  min-height: 146px;
+  font-size: .95rem;
+
+  &-icon{
+    display: inline-block;
+    padding-top: 1.2rem;
+    font-size: 4rem;
+    line-height: 1.2;
+    margin: 0 auto;
+  }
+}
+
+//section 01
+.list-check-circle{
+  list-style: none;
+
+  li:before {
+    color: $primary;
+    content: "\f058"; /* FontAwesome Unicode */
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    margin-left: -1.3rem; /* same as padding-left set on li */
+    width: 1.3rem; /* same as padding-left set on li */
+    margin-bottom: .5rem;
+  }
+}
+
+.home-reviews{
+  border-top: 3px dotted $gray-600;
+  border-bottom: 3px dotted $gray-600;
+}
+
+//
+.title-h1{
+  color: $primary;
+  font-weight: bold;
+  text-align: center;  
+}
+
+.w-40{
+  width: 40%;
+  max-width: 40%;
+}
+
+.w-80{
+  width: 80%;
+  max-width: 80%;
+}
+
+//Trekking Images
+.trekking-images{
+  background: #444;
+  img{
+    width: 100%;
+    display: block;
+    height: auto;
+
+    @media (min-width: 768px) {
+      height: 250px;
+    }
+  }
+
+  
+
+  &-description{
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: $white;
+    padding: .5rem 0;
+    font-size: .95rem;
+  }
+}
+
+//tours-cards
+.tours-cards{
+  background: $gray-200;
+  .card-title{
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .card-body{
+      min-height: 335px;
+    }
+  }
+}
+
+.card-flat{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+
+  &-img{
+    width: 155px;
+  }
+
+  &-text{
+    color: $white;
+    font-weight: bold;
+    font-size: 1rem;
+    position: absolute;
+    left: 30px;
+    top: 4px;
+  }
+}
+
+.garantia-content{
+  margin-top: 8rem;
+
+  &-img{
+    margin: 0 auto;
+    display: block;
+    bottom: 50px;
+    position: relative;
+  }
+
+  @media (min-width: 768px) {
+    margin-top: 8rem;
+
+    &-img{
+      width: 100px;
+      height: auto;
+      position: absolute;
+      bottom: 10px;
+      left: 35px;
+    }
+  }
+  
+}
+
+//SERVICIOS
+.services-cards{
+  text-align: center;
+
+  .card-title{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #f7f7f7;
+  }
+  a{
+    color: $white;
+    display: block;
+  }
+  a:hover{
+    box-shadow: 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12), 0 5px 5px -3px rgba(0,0,0,.3);
+  }
+
+}
+
+
+//SECTION 05 CHAT
+.chat-with-us-imgs{
+  img{
+    width: 160px;
+    height: 160px;
+    margin-bottom: 2rem;
+  }
+}
+
+//Paquetes
+.table-paquetes{
+  img{
+    width: 90px;
+    height: 90px;
+  }
+
+  &-text{
+    @media (min-width: 768px) {
+      padding-top: 2rem !important;
+    }
+    
+    padding-left: 2rem !important;
+
+    .text-primary{
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    p{      
+      font-weight: normal;
+      margin-bottom: 0;
+      font-size: .95rem;
+    }
+  }
+
+  &-dias{
+    padding-top: 2.5rem !important;
+    font-weight: bold;
+  }
+
+  &-usd{
+    padding-top: 2rem !important;
+    .text-primary{
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    p{      
+      font-weight: normal;
+      margin-bottom: 0;
+      text-decoration: line-through;
+    }
+  }
+
+  &-btn{
+    padding-top: 2.5rem !important;
+    font-weight: bold;
+
+    @media (max-width: 768px) {
+      a{
+        width: 99px;
+        font-size: .8rem;
+      }
+    }
+  }
+
+}
+
+
+//SECTION 09 CÓMO FUNCIONA
+.funciona{
+  img{
+    height: 80px;
+    max-width: 100%;
+  }
+}
+
+
+// SECTION 10 CIRCLE
+.circle-titles{
+  width: 100%;
+  margin-bottom: 5rem;
+  @media (min-width: 768px) {
+    width: 50%;
+    height: auto;    
+  }
+}
+
+//VIAJA
+.viaja-bar{
+  font-size: 3rem;
+  font-weight: bold;
+  p{
+    padding-top: .8rem;
+  }
+}
+
+.footer-logos{
+  text-align: center;
+  img{
+    max-width: 100%;
+    height: 60px;
+    margin-bottom: 2rem;
+
+    @media (min-width: 768px) {
+      max-width: 100%;
+    }
+  }
+
+}
