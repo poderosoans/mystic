@@ -29,6 +29,80 @@
 	min-width: 280px;
 }
 
+
+@font-face {
+font-family: 'Trade Gothic LT Std Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Trade Gothic LT Std Regular'), url('../fonts/trade-gothic-lt-std-58a78e64434a9.woff') format('woff');
+}
+
+@font-face {font-family: "Soleil W02 Book";
+  src: url("../fonts/f063115399f50f2ff111926309bd8c98.eot"); /* IE9*/
+  src: url("../fonts/f063115399f50f2ff111926309bd8c98.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/f063115399f50f2ff111926309bd8c98.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/f063115399f50f2ff111926309bd8c98.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/f063115399f50f2ff111926309bd8c98.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/f063115399f50f2ff111926309bd8c98.svg#Soleil W02 Book") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "Soleil W02 Bold";
+  src: url("../fonts/a9d2e51be59e365796251ab6d63be17b.eot"); /* IE9*/
+  src: url("../fonts/a9d2e51be59e365796251ab6d63be17b.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/a9d2e51be59e365796251ab6d63be17b.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/a9d2e51be59e365796251ab6d63be17b.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/a9d2e51be59e365796251ab6d63be17b.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/a9d2e51be59e365796251ab6d63be17b.svg#Soleil W02 Bold") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "Soleil W02 Regular";
+  src: url("../fonts/6d2d1db79b94f420f7e74bf174749ca9.eot"); /* IE9*/
+  src: url("../fonts/6d2d1db79b94f420f7e74bf174749ca9.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/6d2d1db79b94f420f7e74bf174749ca9.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/6d2d1db79b94f420f7e74bf174749ca9.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/6d2d1db79b94f420f7e74bf174749ca9.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/6d2d1db79b94f420f7e74bf174749ca9.svg#Soleil W02 Regular") format("svg"); /* iOS 4.1- */
+}
+
+
+.font-trade-gothic {
+    font-family:'Trade Gothic LT Std Regular' !important;
+}
+
+.font-soleil-w02-book{
+    font-family:"Soleil W02 Book" !important;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.font-soleil-w02-bold{
+    font-family:"Soleil W02 Bold" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.font-soleil-w02-regular{
+    font-family:"Soleil W02 Regular" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.subtitle {
+	color: #636363;
+}
+
+.treking-list {
+	font-size: 12px;
+}
+
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
