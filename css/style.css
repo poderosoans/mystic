@@ -99,8 +99,13 @@ src: local('Trade Gothic LT Std Regular'), url('../fonts/trade-gothic-lt-std-58a
 	color: #636363;
 }
 
-.treking-list {
+.trekking-list {
 	font-size: 12px;
+}
+
+.trekking-line {
+	width: 80%;
+    margin: 0 auto;
 }
 
 /* 

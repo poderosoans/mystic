@@ -10264,7 +10264,8 @@ a.text-black:hover, a.text-black:focus {
     height: auto; }
     @media (min-width: 768px) {
       .trekking-images img {
-        height: 250px; } }
+       /*height: 250px;*/ 
+      } }
   .trekking-images-description {
     background: rgba(0, 0, 0, 0.4);
     position: absolute;
