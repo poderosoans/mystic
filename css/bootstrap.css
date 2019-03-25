@@ -10289,7 +10289,7 @@ a.text-black:hover, a.text-black:focus {
 .card-flat {
   position: absolute;
   top: 15px;
-  left: 15px; }
+  left: 0px; }
   .card-flat-img {
     width: 155px; }
   .card-flat-text {
@@ -10361,7 +10361,7 @@ a.text-black:hover, a.text-black:focus {
   .table-paquetes-usd .text-primary {
     font-weight: bold;
     font-size: 1.2rem; }
-  .table-paquetes-usd p {
+  .table-paquetes-usd p:first-child {
     font-weight: normal;
     margin-bottom: 0;
     text-decoration: line-through; }
