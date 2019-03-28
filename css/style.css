@@ -30,41 +30,6 @@
 }
 
 
-@font-face {
-font-family: 'Trade Gothic LT Std Regular';
-font-style: normal;
-font-weight: normal;
-src: local('Trade Gothic LT Std Regular'), url('../fonts/trade-gothic-lt-std-58a78e64434a9.woff') format('woff');
-}
-
-@font-face {font-family: "Soleil W02 Book";
-  src: url("../fonts/f063115399f50f2ff111926309bd8c98.eot"); /* IE9*/
-  src: url("../fonts/f063115399f50f2ff111926309bd8c98.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("../fonts/f063115399f50f2ff111926309bd8c98.woff2") format("woff2"), /* chrome、firefox */
-  url("../fonts/f063115399f50f2ff111926309bd8c98.woff") format("woff"), /* chrome、firefox */
-  url("../fonts/f063115399f50f2ff111926309bd8c98.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url("../fonts/f063115399f50f2ff111926309bd8c98.svg#Soleil W02 Book") format("svg"); /* iOS 4.1- */
-}
-
-@font-face {font-family: "Soleil W02 Bold";
-  src: url("../fonts/a9d2e51be59e365796251ab6d63be17b.eot"); /* IE9*/
-  src: url("../fonts/a9d2e51be59e365796251ab6d63be17b.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("../fonts/a9d2e51be59e365796251ab6d63be17b.woff2") format("woff2"), /* chrome、firefox */
-  url("../fonts/a9d2e51be59e365796251ab6d63be17b.woff") format("woff"), /* chrome、firefox */
-  url("../fonts/a9d2e51be59e365796251ab6d63be17b.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url("../fonts/a9d2e51be59e365796251ab6d63be17b.svg#Soleil W02 Bold") format("svg"); /* iOS 4.1- */
-}
-
-@font-face {font-family: "Soleil W02 Regular";
-  src: url("../fonts/6d2d1db79b94f420f7e74bf174749ca9.eot"); /* IE9*/
-  src: url("../fonts/6d2d1db79b94f420f7e74bf174749ca9.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("../fonts/6d2d1db79b94f420f7e74bf174749ca9.woff2") format("woff2"), /* chrome、firefox */
-  url("../fonts/6d2d1db79b94f420f7e74bf174749ca9.woff") format("woff"), /* chrome、firefox */
-  url("../fonts/6d2d1db79b94f420f7e74bf174749ca9.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url("../fonts/6d2d1db79b94f420f7e74bf174749ca9.svg#Soleil W02 Regular") format("svg"); /* iOS 4.1- */
-}
-
-
 .font-trade-gothic {
     font-family:'Trade Gothic LT Std Regular' !important;
 }
@@ -115,6 +80,117 @@ src: local('Trade Gothic LT Std Regular'), url('../fonts/trade-gothic-lt-std-58a
 	font-family:'Trade Gothic LT Std Regular' !important;
 }
 
+.btn-article {
+	border-radius: unset;
+	border-left: 60px solid #cc6600;
+	border-right: 0px solid transparent;
+	border-top: 0px solid transparent;
+	border-bottom: 0px solid transparent;
+}
+
+.btn-article:hover {
+	border-radius: unset;
+	border-left: 60px solid #cc6600;
+	border-right: 0px solid transparent;
+	border-top: 0px solid transparent;
+	border-bottom: 0px solid transparent;
+}
+
+.table-paquetes-img {
+	cursor: pointer;
+}
+
+/* Effects */
+
+
+.hovereffect {
+width:100%;
+height:100%;
+float:left;
+overflow:hidden;
+position:relative;
+text-align:center;
+cursor:default;
+}
+
+.hovereffect .overlay {
+width:100%;
+height:100%;
+position:absolute;
+overflow:hidden;
+top:0;
+left:0;
+opacity:0;
+background-color:rgba(0,0,0,0.5);
+-webkit-transition:all .4s ease-in-out;
+transition:all .4s ease-in-out
+}
+
+.hovereffect img {
+display:block;
+position:relative;
+-webkit-transition:all .4s linear;
+transition:all .4s linear;
+}
+
+.hovereffect h2 {
+text-transform:uppercase;
+color:#fff;
+text-align:center;
+position:relative;
+font-size:17px;
+background:rgba(0,0,0,0.6);
+-webkit-transform:translatey(-100px);
+-ms-transform:translatey(-100px);
+transform:translatey(-100px);
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+padding:10px;
+}
+
+.hovereffect a.info {
+text-decoration:none;
+display:inline-block;
+text-transform:uppercase;
+color:#fff;
+border:1px solid #fff;
+background-color:transparent;
+opacity:0;
+filter:alpha(opacity=0);
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+margin:20% 0 0;
+padding:7px 14px;
+}
+
+.hovereffect a.info:hover {
+box-shadow:0 0 5px #fff;
+}
+
+.hovereffect:hover img {
+-ms-transform:scale(1.2);
+-webkit-transform:scale(1.2);
+transform:scale(1.2);
+}
+
+.hovereffect:hover .overlay {
+opacity:1;
+filter:alpha(opacity=100);
+}
+
+.hovereffect:hover h2,.hovereffect:hover a.info {
+opacity:1;
+filter:alpha(opacity=100);
+-ms-transform:translatey(0);
+-webkit-transform:translatey(0);
+transform:translatey(0);
+}
+
+.hovereffect:hover a.info {
+-webkit-transition-delay:.2s;
+transition-delay:.2s;
+}
+
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
@@ -122,7 +198,11 @@ src: local('Trade Gothic LT Std Regular'), url('../fonts/trade-gothic-lt-std-58a
 
 @media (min-width: 1281px) {
   
-
+.btn-regular {
+	font-size: 1.1rem;
+    padding: 0.4rem 2.5rem;
+    border-radius: unset;
+}
   
 }
 
@@ -133,7 +213,11 @@ src: local('Trade Gothic LT Std Regular'), url('../fonts/trade-gothic-lt-std-58a
 
 @media (min-width: 1025px) and (max-width: 1280px) {
   
-
+.btn-regular {
+	font-size: 1.1rem;
+    padding: 0.4rem 2.5rem;
+    border-radius: unset;
+}
   
 }
 
@@ -144,7 +228,11 @@ src: local('Trade Gothic LT Std Regular'), url('../fonts/trade-gothic-lt-std-58a
 
 @media (min-width: 768px) and (max-width: 1024px) {
   
-
+.btn-regular {
+	font-size: 0.9625rem;
+    padding: 0.5rem 1rem;
+    border-radius: unset;
+}
   
 }
 
@@ -155,7 +243,9 @@ src: local('Trade Gothic LT Std Regular'), url('../fonts/trade-gothic-lt-std-58a
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   
-
+.btn-regular {
+    border-radius: unset;
+}
   
 }
 
@@ -166,7 +256,9 @@ src: local('Trade Gothic LT Std Regular'), url('../fonts/trade-gothic-lt-std-58a
 
 @media (min-width: 481px) and (max-width: 767px) {
   
-
+.btn-regular {
+    border-radius: unset;
+}
   
 }
 
@@ -177,6 +269,8 @@ src: local('Trade Gothic LT Std Regular'), url('../fonts/trade-gothic-lt-std-58a
 
 @media (min-width: 320px) and (max-width: 480px) {
   
-
+.btn-regular {
+    border-radius: unset;
+}
   
 }
